@@ -6,7 +6,7 @@ import csv
 
 
 path_into_zip = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'files')
-path_out_zip = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resources')
+path_out_zip = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'files/resources')
 files_dir = os.listdir(path_into_zip)
 path_zip = os.path.join(path_out_zip, "test.zip")
 
