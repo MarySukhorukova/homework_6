@@ -53,4 +53,4 @@ def test_read_from_csv_file():
             assert len(new_list) == 7
             assert ['Star Wars', '1978'] in new_list
 
-            os.remove("test_csv.csv")
+        os.remove("test_csv.csv")
